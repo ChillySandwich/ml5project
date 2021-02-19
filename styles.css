@@ -1,0 +1,27 @@
+.topnav {
+  height: 6em;
+  overflow: hidden;
+  font-family: 'Fira Sans', sans-serif;
+  color: black;
+  font-size: xx-large;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+#myCanvas {
+  margin: auto;
+  display: block;
+  width: auto;
+  border:black solid 8px;
+}
+
+body{
+  background-image: url(stripes.png);
+}
+
+
+
