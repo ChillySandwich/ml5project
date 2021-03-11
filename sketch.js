@@ -73,7 +73,7 @@ function getPoses(results) {
 //     }
 // }
 
-
+//adds a harded coded location for the virus on the screen
 function addVirus() {
     if (poses.length > 0) {
         for (i = 0; i < poses.length; i++) {
@@ -89,6 +89,7 @@ function addVirus() {
     }
 }
 
+// draws mask onto the face
 function drawMask() {
     if (poses.length > 0) {
         for (i = 0; i < poses.length; i++) {
@@ -101,7 +102,7 @@ function drawMask() {
     }
 }
 
-
+// if the left and right width are greater than a certain threshold on the screen, display an alert "Wash your hands" on the screen.
 function washYourHands() {
     if (poses.length > 0) {
         for (i = 0; i < poses.length; i++) {
